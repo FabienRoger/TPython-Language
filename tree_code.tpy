@@ -1,0 +1,12 @@
+deftree recherchedico(l,i=0,j=-1):
+	if j == -1:j = len(l)-1
+	if abs(i-j) == 0:
+		return i
+	if l[i] > x or l[j] < x:
+		return -1
+	k = (i+j)//2
+	> i,k
+	> k,j
+merge l:
+	f,s = l
+	return max(f,s) #un des deux vaut -1
